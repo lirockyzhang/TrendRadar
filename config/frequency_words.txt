@@ -12,7 +12,7 @@ CPI
 中美关系
 国际关系
 中国
-美国
++美国
 
 白宫
 特朗普
@@ -48,13 +48,6 @@ openai
 claude
 Anthropic
 
-苹果
-库克
-iphone
-ipad
-mac
-ios
-
 ai
 !gai
 人工智能
@@ -62,11 +55,7 @@ ai
 芯片
 光刻机
 
-科技
-
 核能
-
-新质生产力
 
 月球
 登月

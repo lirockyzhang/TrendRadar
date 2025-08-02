@@ -23,6 +23,11 @@
 > 本项目以轻量，易部署为目标，主要处理 issues
 >
 > 遇到问题提 issues，或【硅基茶水间】公众号留言
+>
+> 附项目相关的两篇文章，欢迎留言交流
+>
+> 1. [2个月破 1000 star，我的GitHub项目推广实战经验](https://mp.weixin.qq.com/s/jzn0vLiQFX408opcfpPPxQ)
+> 2. [基于本项目，如何开展公众号或者新闻资讯类文章写作](https://mp.weixin.qq.com/s/8ghyfDAtQZjLrnWTQabYOQ)
 
 ## ✨ 核心功能
 
@@ -252,6 +257,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
    <details>
    <summary> <strong>👉 企业微信机器人</strong>（配置最简单最迅速）</summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`WEWORK_WEBHOOK_URL`
@@ -270,6 +276,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
    <details>
    <summary> <strong>👉 飞书机器人</strong>（消息显示最友好）</summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`FEISHU_WEBHOOK_URL`
@@ -314,6 +321,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
    <details>
    <summary> <strong>👉 钉钉机器人</strong></summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`DINGTALK_WEBHOOK_URL`
@@ -341,6 +349,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
    <details>
    <summary> <strong>👉 Telegram Bot</strong></summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`TELEGRAM_BOT_TOKEN` - 你的 Telegram Bot Token
@@ -382,6 +391,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    
     <details>
     <summary><strong>👉 点击查看 frequency_words.txt 配置教程</strong></summary>
+    <br>
 
     在 `frequency_words.txt` 文件中配置监控的关键词，支持三种语法和词组功能。
 
@@ -620,11 +630,24 @@ platforms:
 
 |           点赞人            |  金额  |  日期  |             备注             |
 | :-------------------------: | :----: | :----: | :-----------------------: |
+|           *远            |  1  | 2025.8.01 |            |
+|           *邪            |  5  | 2025.8.01 |            |
 |           *梦            |  0.1  | 2025.7.30 |            |
 |           **龙            |  10  | 2025.7.29 |      支持一下      |
 
 <details>
-<summary><strong>👉 点击查看使用流程图</strong></summary>
+<summary><strong>👉 "手机推送通知系列"之新项目挖坑预告</strong></summary>
+<br>
+我很豪横拿诸位的点赞，买了一瓶 15.5 元的柠檬汁
+
+截图中虽然我已经自用，但很简易，只支持一个渠道，且我想顺便扩展些功能，比如某些项目的更新监控，大家有什么好的建议可以公众号留言
+
+<img src="_image/next.jpg" width="300" title="github"/>
+
+</details>
+
+<details>
+<summary><strong>👉 本项目流程图</strong></summary>
 
 ```mermaid
 flowchart TD

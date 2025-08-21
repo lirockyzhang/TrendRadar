@@ -1,0 +1,154 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-21 19:26:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">关税 利率 降息 加息 原油 黄金 央行 美联储 财政 统计局 GDP CPI 非农</td>
+                <td class="count">5</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1941535461521725332" target="_blank" class="news-link">小鹏半年销量已超去年全年，毛利率超特斯拉，现金储备 475 亿元，小鹏做对了什么？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时26分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753761" target="_blank" class="news-link">美联储7月会议纪要：多数人认为通胀比就业风险高，担心美债市场脆弱，关注稳定币影响</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时26分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121543" target="_blank" class="news-link">7大理事+12位地区联储主席！特朗普真能“一统”美联储？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时26分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753752" target="_blank" class="news-link">“逐步蚕食”美联储！特朗普要求理事Lisa Cook辞职，Cook拒绝</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时26分</font><br>[知乎] <a href="https://www.zhihu.com/question/1941783907595974431" target="_blank" class="news-link">美联储公布最新 7 月会议纪要，几乎全体委员均支持暂不降息，对此你怎么看？</a> [15] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">白宫 特朗普 Trump 华盛顿</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8lzG8HKRYX8" target="_blank" class="news-link">不寻常！白宫“突破界限”，确认交易</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时26分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8m0D3MOnrKa" target="_blank" class="news-link">中印破冰，特朗普助推？</a> [10] <font color='grey'>- 19时26分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31438700" target="_blank" class="news-link">释新闻｜特朗普说他解决了“六场战争”，真的吗？</a> [17] <font color='grey'>- 19时26分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7540169822152474666/" target="_blank" class="news-link">白宫发布2张内涵丰富的照片</a> [19] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">股市 A股 创业板 AH股 港股 恒生 国债</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753780" target="_blank" class="news-link">AH股午后回落，沪指冲高回落仅涨0.1%，高位股集体大跌，恒科指跌近1%，老铺黄金跌4%，国债反弹，商品分化</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时26分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121909" target="_blank" class="news-link">追平历史纪录！A股7连破“2万亿”，历史镜鉴：彼时涨了哪些板块？</a> [10] <font color='grey'>- 19时26分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7540960157736373779/" target="_blank" class="news-link">股市涨不动了吗</a> [12] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">我国 中共 中央 代表大会</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2121464" target="_blank" class="news-link">破解世界性难题！我国在“可燃冰”大规模利用领域实现重要突破</a> [8] <font color='grey'>- 19时26分</font><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/665679720" target="_blank" class="news-link">独库公路真的是我国的最美公路吗？</a> [18] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7540962081147912235/" target="_blank" class="news-link">中央巡视期间“内鬼”黎守全落马</a> [29] <font color='grey'>- 19时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">战争 袭击 入侵 谈判 停火</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8m0BIEvKvrf" target="_blank" class="news-link">俄军中将遇袭重伤，乌军公布无人机袭击画面</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时26分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7540943383456468489/" target="_blank" class="news-link">官方通报“村民自称被老虎袭击”</a> [16] <font color='grey'>- 19时26分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B9%96%E5%8C%97%E4%B8%80%E6%9D%91%E6%B0%91%E7%A7%B0%E9%81%AD%E8%80%81%E8%99%8E%E8%A2%AD%E5%87%BB+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5" target="_blank" class="news-link">湖北一村民称遭老虎袭击 当地通报</a> [16] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美股 纳斯达克 纳指 标普 道琼斯</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753708" target="_blank" class="news-link">科技股探底反弹，纳指仍跌近0.7%，道指惊险收涨，黄金、原油、加密货币齐反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时26分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753779" target="_blank" class="news-link">霍华德·马克斯：美股处于泡沫的“早期阶段”，尽管回调的关键点尚未到来</a> [9] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">航母 驱逐舰 军演</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8m08RipAb5P" target="_blank" class="news-link">两栖攻击舰+驱逐舰+巡洋舰+核潜艇，美国向拉美派重兵目的何在？</a> [11] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">SpaceX Tesla 马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8m04FZMDJ8m" target="_blank" class="news-link">马斯克放弃组建“美国党”转而支持万斯？万斯回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">谷歌 alphabet google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753760" target="_blank" class="news-link">谷歌年度硬件盛会组合拳：Pixel 10全面融入Gemini AI，手表和耳机也“进化”</a> [10] <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">Meta 小扎 扎克伯格</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2121424" target="_blank" class="news-link">AI领域大新闻！不光是重组团队 Meta被曝已暂停AI招聘</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时26分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7540962081147912235/" target="_blank" class="news-link">中央巡视期间“内鬼”黎守全落马</a> [29]</li></ul><h4>知乎 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/665679720" target="_blank" class="news-link">独库公路真的是我国的最美公路吗？</a> [18]</li></ul></div>
+    </body>
+    </html>
+    

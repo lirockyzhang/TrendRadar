@@ -1,0 +1,138 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-28 15:39:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">5</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2128290" target="_blank" class="news-link">【早报】英伟达最新业绩公布；工信部发文，卫星通信产业迎利好</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时39分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754328" target="_blank" class="news-link">英伟达营收利润超预期，本季指引不够亮眼，“缺失中国”成焦点 | 财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时39分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2128520" target="_blank" class="news-link">英伟达盘后跌得冤不冤？一文纵览：华尔街如何看这份“全球最重要财报”！</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时39分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754290" target="_blank" class="news-link">DeepSeek刚提到FP8，英伟达就把FP4精度推向预训练，更快、更便宜</a> [9] <font color='grey'>- 15时39分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2128331" target="_blank" class="news-link">8月28日投资避雷针：英伟达财报公布后 股价盘后一度跌超5%</a> [9] <font color='grey'>- 15时39分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">白宫 特朗普 Trump 华盛顿</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8mB5zNtQMvD" target="_blank" class="news-link">校园枪击事件致20人死伤，特朗普下令降半旗哀悼</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时39分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mAfTVyrAPs" target="_blank" class="news-link">想当“和平总统”的特朗普，为何急着想要“战争部”？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时39分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31487087" target="_blank" class="news-link">特朗普称希望中国参与削减核武库，外交部：不合理也不现实</a> [10] <font color='grey'>- 15时39分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2128300" target="_blank" class="news-link">特朗普考虑限制留学生在美时间 墨西哥宣布暂停对美包裹寄递服务 | 环球市场</a> [11] <font color='grey'>- 15时39分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">股市 A股 创业板 AH股 港股 恒生 国债</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754242" target="_blank" class="news-link">AH股午后跳水，沪指跌1.7%，两市成交再破3万亿，寒武纪超越贵州茅台成A股新“股王”，国债反弹，商品普跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时39分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754345" target="_blank" class="news-link">A股午后震荡反弹，创业板大涨超3%，寒武纪股价突破1500元，恒科指跌超1%，美团大跌超12%</a> [8] <font color='grey'>- 15时39分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8" target="_blank" class="news-link">A股收盘：三大指数集体上涨</a> [12] <font color='grey'>- 15时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">关税 利率 降息 加息 原油 黄金 央行 美联储 财政 统计局 GDP CPI 非农</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31487726" target="_blank" class="news-link">释新闻｜美国今起对印度征收50%关税，印度如何应对？</a> [8] <font color='grey'>- 15时39分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754337" target="_blank" class="news-link">英伟达电话会：“将Blackwell带到中国市场”的机会真实存在，今年毛利率仍有望达70%中段水平</a> [10] <font color='grey'>- 15时39分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7543462551233760811/" target="_blank" class="news-link">美对印征收50%关税后果</a> [25] <font color='grey'>- 15时39分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">战争 袭击 入侵 谈判 停火</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8mBK1AR4l5I" target="_blank" class="news-link">基辅传出巨大爆炸声，乌克兰称俄罗斯发动大规模袭击</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时39分</font><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2218330" target="_blank" class="news-link">中方贸易谈判代表将赴美</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时39分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7542614136774131754/" target="_blank" class="news-link">央视记者问以色列不惜犯下战争罪吗</a> [30] <font color='grey'>- 15时39分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">中美关系 国际关系 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7543485129805532713/" target="_blank" class="news-link">中国为何现在才拿稀土牌反击美国</a> [19] <font color='grey'>- 15时39分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344526&amp;amp;topic_name=%E6%87%82%E7%8E%8B%E5%8F%91%E9%A3%99%2C%E4%B8%AD%E5%9B%BD%E6%8D%8F%E4%BD%8F%E7%BE%8E%E5%9B%BD%E5%91%BD%E9%97%A8" target="_blank" class="news-link">懂王发飙,中国捏住美国命门</a> [23] <font color='grey'>- 15时39分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美股 纳斯达克 纳指 标普 道琼斯</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754267" target="_blank" class="news-link">标普勉强收创新高，英伟达绩后一度跌5%，黄金走高，美团ADR大跌近10%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时39分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">我国 中共 中央 代表大会</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2128648" target="_blank" class="news-link">我国自主研发脑机接口成功完成脑深部肿瘤边界精准定位临床试验</a> [13] <font color='grey'>- 15时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+        <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8" target="_blank" class="news-link">A股收盘：三大指数集体上涨</a> [12]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2128648" target="_blank" class="news-link">我国自主研发脑机接口成功完成脑深部肿瘤边界精准定位临床试验</a> [13]</li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2218330" target="_blank" class="news-link">中方贸易谈判代表将赴美</a> <font color='red'><strong>[4]</strong></font></li></ul></div>
+    </body>
+    </html>
+    

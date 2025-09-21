@@ -1,0 +1,143 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-21 22:27:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">白宫 特朗普 Trump 华盛顿</td>
+                <td class="count">6</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755973" target="_blank" class="news-link">“H-1B新政”引发混乱！硅谷连夜敦促员工速回美国，白宫紧急“打补丁”：“新老划断”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时27分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mpKYlEOcQq" target="_blank" class="news-link">特朗普专机，险些被撞了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2151110" target="_blank" class="news-link">特朗普H-1B新政引恐慌 白宫紧急澄清：一次性收费、新老划断</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时27分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755972" target="_blank" class="news-link">“中国订单量仍为零”，美大豆协会主席拖拉机上喊话特朗普：中国市场至关重要，需要立刻行动！</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时27分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mpI4tdjWA9" target="_blank" class="news-link">美国政府10月1日面临关门危机，民主党领袖要求与特朗普会面</a> [8] <font color='grey'>- 22时27分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%99%BD%E5%AE%AB%E6%BE%84%E6%B8%85H1B%E9%9A%BE%E6%B0%91%E6%9E%81%E9%80%9F%E8%BF%94%E7%BE%8E" target="_blank" class="news-link">白宫澄清H1B难民极速返美</a> [26] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">关税 利率 降息 加息 原油 黄金 央行 美联储 财政 统计局 GDP CPI 非农</td>
+                <td class="count">5</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755976" target="_blank" class="news-link">以“75基点降息”为线，美联储分裂为“两大阵营”，关键分歧对市场至关重要</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时27分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755902" target="_blank" class="news-link">下周重磅日程：“美联储最爱”的通胀指标，“金融三巨头”发布会，阿里云栖大会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时27分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/premium/articles/3755969?layout=wscn-layout" target="_blank" class="news-link">长端利率在涨，短端却不跟？中债收益率曲线如何影响你的策略？【洞察君课代表加餐】</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时27分</font><br>[凤凰网] <a href="https://v.ifeng.com/c/8mphCxMcAC7" target="_blank" class="news-link">特朗普带密友参观升级的办公室：添置了大量24K黄金，非常漂亮</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2151042" target="_blank" class="news-link">华尔街乐观押注：利率降幅将远超美联储预测</a> [11] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">股市 A股 创业板 AH股 港股 恒生 国债</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755991" target="_blank" class="news-link">还有多少存款可以“搬家”到股市？</a> [8] <font color='grey'>- 22时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2151136" target="_blank" class="news-link">A股市场并购重组浪潮涌动！本周披露进展的上市公司名单一览</a> [9] <font color='grey'>- 22时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2150916" target="_blank" class="news-link">股市火爆，私募超额罕见集体失灵，仅3%私募产品连续8个月正超额</a> [12] <font color='grey'>- 22时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2151218" target="_blank" class="news-link">A股下一波的线索是什么？投资主线有哪些？十大券商策略来了</a> [13] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">我国 中共 中央 代表大会</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7551908686563344423/" target="_blank" class="news-link">中央气象台发布台风蓝色预警</a> [16] <font color='grey'>- 22时27分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7552005610410131465/" target="_blank" class="news-link">男子车停路中央致街道瘫痪还指挥车</a> [17] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美股 纳斯达克 纳指 标普 道琼斯</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755971" target="_blank" class="news-link">高盛对冲基金主管：在“闭眼买就能赚钱”的市场里，不要对抗牛市，“美股还有油”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">航母 驱逐舰 军演</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E8%88%AA%E6%AF%8D%E4%BB%8E%E5%8D%97%E6%B5%B7%E2%80%9C%E6%BA%9C%E4%BA%86%E2%80%9D" target="_blank" class="news-link">英国航母从南海“溜了”</a> [27] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">SpaceX Tesla 马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755981" target="_blank" class="news-link">人形机器人的全球竞争格局：中国领跑商业化、特斯拉Optimus V3最受关注、韩国正在追赶中美</a> [9] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">谷歌 alphabet google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1952104083063309302" target="_blank" class="news-link">谷歌试图说服 YouTube 用户弃用广告拦截器，这背后原因有哪些？</a> [14] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2151060" target="_blank" class="news-link">OpenAI领衔！AI热潮下美国“七大科技初创”总估值达1.3万亿美元</a> [10] <font color='grey'>- 22时27分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

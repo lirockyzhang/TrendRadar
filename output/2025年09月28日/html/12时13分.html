@@ -1,0 +1,146 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-28 12:13:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">白宫 特朗普 Trump 华盛顿</td>
+                <td class="count">5</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8n0kNFzCWod" target="_blank" class="news-link">眼中钉被起诉，特朗普连发四帖“庆祝”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时13分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8n0IN5h328P" target="_blank" class="news-link">特朗普：国会山骚乱中FBI秘密派遣274名特工混入人群</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2158165" target="_blank" class="news-link">特朗普下令向波特兰派兵：必要时将动用全部武力</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E7%BD%95%E8%A7%81%E5%AF%B9%E5%86%85%E5%A1%94%E5%B0%BC%E4%BA%9A%E8%83%A1%E5%85%AC%E5%BC%80%E6%96%BD%E5%8E%8B" target="_blank" class="news-link">特朗普罕见对内塔尼亚胡公开施压</a> [9] <font color='grey'>- 12时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%91%E5%B8%83%E2%80%9C%E8%A7%A3%E9%9B%87%E9%B2%8D%E5%A8%81%E5%B0%94%E2%80%9D%E7%9A%84%E6%BC%AB%E7%94%BB" target="_blank" class="news-link">特朗普发布“解雇鲍威尔”的漫画</a> [28] <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">股市 A股 创业板 AH股 港股 恒生 国债</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2158094" target="_blank" class="news-link">盘中创历史新高A股名单一览：紫金矿业、阳光电源、赛力斯等在列</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2158121" target="_blank" class="news-link">“A+H”股热潮延续！9月累计20家A股上市公司筹划赴港上市，沪电股份、东山精密等PCB龙头在列</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时13分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756406" target="_blank" class="news-link">美国债市也“闻到了2007年的味道”</a> [9] <font color='grey'>- 12时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">关税 利率 降息 加息 原油 黄金 央行 美联储 财政 统计局 GDP CPI 非农</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%A7%E7%A5%9E%E8%AE%B0%E9%BB%84%E9%87%91%E5%AE%AB%E7%AF%87%E5%BC%80%E5%90%AF" target="_blank" class="news-link">牧神记黄金宫篇开启</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756401" target="_blank" class="news-link">周末加班发梗图，特朗普真想“开掉”美联储主席</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时13分</font><br>[知乎] <a href="https://www.zhihu.com/question/1899861325187884345" target="_blank" class="news-link">身边越来越多人开始买黄金了，你怎么看？它真的保值吗？</a> [11] <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">我国 中共 中央 代表大会</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[抖音] <a href="https://www.douyin.com/hot/2251438" target="_blank" class="news-link">我国在北极冰区首次实现载人深潜</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2158028" target="_blank" class="news-link">我国科学家在固态电池聚合物电解质研究领域取得进展</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时13分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31695784" target="_blank" class="news-link">中央纪委印发通知：两节期间对顶风违纪问题速查严处</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">战争 袭击 入侵 谈判 停火</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1955262594450420103" target="_blank" class="news-link">甘肃 22 岁孕妇遭黑熊袭击装死脱险，送医时头面部大面积撕裂，遇到这种情况该怎么办？装死真的有用吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时13分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7554411075623256106/" target="_blank" class="news-link">孕妇遭熊袭击重伤装死保命后续</a> [13] <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">航母 驱逐舰 军演</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B%EF%BC%81%E4%B8%AD%E5%9B%BD%E8%88%AA%E6%AF%8D%E7%A6%8F%E5%BB%BA%E8%88%B0%E5%88%9B%E7%BA%AA%E5%BD%95" target="_blank" class="news-link">全球首例！中国航母福建舰创纪录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时13分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2158043" target="_blank" class="news-link">海军三航母时代，即将到来</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美股 纳斯达克 纳指 标普 道琼斯</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756395" target="_blank" class="news-link">摩根大通：美股年底冲击7000点前，面临五大短期下行风险</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">大模型 光刻机 核能 核聚变 核裂变 托卡马克 水电</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1954228019674747282" target="_blank" class="news-link">如何评价于第二十五届中国国际工业博览会中，上海微电子首次公开亮相极紫外 (EUV) 光刻机参数图？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">谷歌 alphabet google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756388" target="_blank" class="news-link">科幻！谷歌放出Gemini Robotics-ER 1.5：机器人有了真正的思考力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3756406" target="_blank" class="news-link">美国债市也“闻到了2007年的味道”</a> [9]</li></ul></div>
+    </body>
+    </html>
+    
